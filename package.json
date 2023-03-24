@@ -6,8 +6,11 @@
   "scripts": {
     "serve": "webpack serve --no-open --host 0.0.0.0 --port 3000",
     "build": "webpack --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"predeploy": "npm run build",
+	"deploy": "gh-pages -d dist"
   },
+  "homepage": "http://gci-js.github.io/HolyGenerator",
   "author": "",
   "license": "ISC",
   "devDependencies": {
