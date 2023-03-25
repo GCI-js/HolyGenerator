@@ -38,12 +38,6 @@ export default function TemporalBoard(properties: Props) {
               <img src={background_img} className="ButtonImg" />
             </div>
           </div>
-          <div className="BottomStruct">
-            <div className="ButtonText">스티커</div>
-            <div className="StickerButton" onClick={() => hanger.create("")}>
-              <img src={sticker_img} className="ButtonImg" />
-            </div>
-          </div>
         </div>
         <div></div>
         <div className="FooterContainer" onClick={() => hanger.create("")}>
