@@ -1,0 +1,38 @@
+.index:global {
+  position: absolute;
+  background-color: grey;
+  width: 240px;
+  > .wmk {
+    position: absolute;
+    margin: 0;
+    width: fit-content;
+    font-size: 12px;
+
+    font-style: normal;
+    line-height: 80%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    z-index: 1;
+    cursor: pointer;
+  }
+  > .wmkBack {
+    color: black;
+    position: absolute;
+    margin: 0;
+    width: fit-content;
+    font-size: 12px;
+
+    font-style: normal;
+    line-height: 80%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    z-index: 0;
+    cursor: pointer;
+  }
+}
