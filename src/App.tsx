@@ -20,7 +20,7 @@ export default function App(properties: Properties) {
 
   return (
     <div id={id} className={cl}>
-      {/* <Editor /> */}
+      <Editor />
       <TemporalBoard randomText={randomText} />
     </div>
   );
