@@ -29,7 +29,7 @@ export default function TemporalBoard(properties: Props) {
         .share({
           title: "신앙의 한줄",
           text: "성경 말씀 생성 페이지",
-          url: "https://641ee097e7fa5800082e6c7a--monumental-granita-491895.netlify.app/",
+          url: "https://main--monumental-granita-491895.netlify.app/",
         })
         .then(() => console.log("공유 성공"))
         .catch((error) => console.log("공유 실패", error));
