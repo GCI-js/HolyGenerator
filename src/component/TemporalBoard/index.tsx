@@ -39,7 +39,6 @@ export default function TemporalBoard(properties: Props) {
             </div>
           </div>
         </div>
-        <div></div>
         <div className="FooterContainer" onClick={() => hanger.create("")}>
           <img src={info_img} className="ButtonImg" />
           <div className="ButtonText">신앙의 한줄</div>
